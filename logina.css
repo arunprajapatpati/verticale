@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./butterfly.jpg);
+}
+
+main{
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+
+#fonta{
+    font-size: 5rem;
+    color: yellow;
+    position: absolute;
+    padding-left: 120px;
+    
+
+}
+main > form{
+    
+    padding:0;
+    margin-top: 1px;
+    border: 2px solid gray;
+    background-color:white;
+       padding: 30px 60px;
+       border-radius: 13px;
+       height: 80vh;
+    position: relative;
+
+}
+button{
+    border-radius:10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+}
+#cen{
+    display: flex;
+    justify-content: center;
+    color: rgb(221, 221, 27);
+    font-size: 18px;
+}
+h3{
+    padding-top: 80px;
+    font-size: 30px;
+    color: #244268;
+}
+h5{
+    font-size: 16px;
+    color: #244268;
+}
+
+input{
+    width: 98%;
+    height: 9%;
+    border-radius: 10px;
+    border-color: rgb(13, 6, 49);
+    background-color: #e8f0fe;
+}
+
+#nigs{
+    display:flex;
+    justify-content: space-between;
+    padding:0px 35px;
+}
+#nigs a{
+    display: block;
+}
+
+h5{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    padding: 0;
+    color: #244268;
+}

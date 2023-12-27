@@ -1,0 +1,36 @@
+#main {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vh;
+    background-color:aqua;
+    /* overflow: hidden; */
+    
+}
+#main div{
+    overflow: hidden;
+}
+img{
+    width: 45vh;
+    height: 25rem;
+    transition: 2s;
+    
+}   
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    padding-left: 20px;
+
+}
+button{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+#main div img:hover{
+    transform: scale(1.2);
+
+}
